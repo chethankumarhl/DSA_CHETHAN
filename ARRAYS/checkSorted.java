@@ -1,5 +1,5 @@
 public class checkSorted {
-    public static int checkSorted(int [] arr){
+    public static int check_Sorted(int [] arr){
         int isSorted = 1;
         for(int i=1;i<arr.length;i++){
             
@@ -11,7 +11,7 @@ public class checkSorted {
     }
     public static void main(String[] args) {
         int arr[] = {1,2,3,4,5,1};
-        int res = checkSorted(arr);
+        int res = check_Sorted(arr);
         if(res == 1){
             System.out.println("sorted");
         }else{
